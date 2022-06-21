@@ -1,0 +1,91 @@
+.editInfo {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+
+.editInfo form {
+  background-color: hsl(0, 0%, 11%);
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.form-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  text-align: left;
+
+}
+
+.form-content label {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.form-content input {
+  padding: 5px 5px;
+  margin-top: 2px;
+  font-size: 1rem;
+  outline: none;
+  background-color: white;
+}
+
+button {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 7px 40px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.save-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  color: white;
+  
+}
+
+.studyTitle {
+  font-size: 1.5rem;
+}
+
+.save-info h3 {
+  font-size: 2.5rem;
+  color: antiquewhite;
+}
+
+.save-content {
+  font-weight: 300;
+  color: beige;
+}
+
+textarea{
+  resize: none;
+}
+
+.addBtn {
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 60px;
+}
+
+.addBtn:hover {
+  background-color: rgb(53, 87, 88);
+}
